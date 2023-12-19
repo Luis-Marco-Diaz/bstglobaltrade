@@ -117,3 +117,72 @@ p, li, ul {
   transform: scaleY(1.1) scaleX(1.1);
   color: white;
 } 
+/* ============= Footer ============= */
+
+.footer {
+  gap: 1rem;
+  padding: 2rem 0;
+  background-color: #000000;
+  color: #efefef;
+  padding-bottom: 1rem;
+}
+.footer__info-data{
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.footer__container {
+  gap: 2rem;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+}
+
+
+.footer__copy {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  border-top: 1px solid #222;
+  padding-top: 2rem;
+}
+
+.footer__info-data :visited {
+  color: rgb(255, 255, 255);
+}   
+.footer__info-number :link {
+  color: rgb(255, 255, 255);
+}
+.footer__info-mail :link {
+  color: rgb(255, 255, 255);
+}
+
+#overbox3 {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999999;
+  display: block;
+}
+#infobox3 {
+  margin: auto;
+  position: relative;
+  top: 0px;
+  height: 3%;
+  width: 100%;
+  text-align:center;
+  background-color: rgba(0, 0, 0, 0.776)
+}
+#infobox3 p {
+  font-size:12px;
+  text-align:center;
+}
+#infobox3 p a {
+  margin-right:5px;
+  text-decoration: underline;
+}
