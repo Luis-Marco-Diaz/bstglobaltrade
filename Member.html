@@ -2,6 +2,7 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <title>BSTGlobalTrade.com</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Autor" content="FullStack Developer Luis Marco Díaz">
   <link href="BSTPortal_files/index.css" rel="stylesheet">
   <link rel="stylesheet" href="BSTPortal_files/bootstrap.min.css">
   <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
@@ -44,8 +45,8 @@ a, a:hover, a:focus {
       align-items:stretch}
       
     #sidebar{
-    min-width:250px;
-    max-width: 250px;background: #171717;
+    min-width:150px;
+    max-width: 200px;background: #171717;
     color:#fff;
     transition: all 0.3s;
     position: absolute;;
@@ -66,13 +67,20 @@ a, a:hover, a:focus {
   
   a[data-toggle="collapse"]{position: relative}
   .dropdown-toggle::after{
-    display: block;position: absolute;top:50%;right:20px;transform: translateY(-50%)}ul ul a{font-size:0.9em !important;padding-left: 30px !important;background: #318fb5}ul.CTAs{padding:20px}ul.CTAs a{text-align: center;font-size:0.9em !important;display: block;border-radius: 5px;margin-bottom:5px}a.download, a.download:hover{background:#318fb5;color:#fff}
+    display: block;
+    position: absolute;
+    top:50%;
+    right:20px;
+    transform: translateY(-50%)}
+  ul ul a{font-size:0.9em !important;padding-left: 30px !important;background: #318fb5}ul.CTAs{padding:20px}ul.CTAs a{text-align: center;font-size:0.9em !important;display: block;border-radius: 5px;margin-bottom:5px}a.download, a.download:hover{background:#318fb5;color:#fff}
   
 
 .content-wrapper{
 padding:15px;
 position: absolute;
 right: 0;
+padding-left: 35%;
+text-align: center;
 }
 
 @media(maz-width:768px){
@@ -145,6 +153,7 @@ right: 0;
 }
   </style>
 </head>
+
 <body>
 
 <!-- Navbar -->
@@ -174,37 +183,35 @@ right: 0;
         <h3>BBBOOTSTRAP</h3>
         <hr>
           </div>
-          <ul class="list-unstyled components">	<p>WELCOME MANUFACTURER</p>
-            <li ><a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">BASES DE DATOS</a>
-          <ul class="collapse list-unstyled" id="homeSubmenu">
-            <li><a href="#">BASES DE DATOS</a></li>
-            <li>	<a href="#">Dashboard2</a>	</li>
-            <li>	<a href="#">Dashboard3</a>	</li>	</ul>	</li>
-            
-            <li>	<a href="#">MARKETING</a>	</li>
-            <li>	<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Subscribers</a>
+          <ul class="list-unstyled components">
+            <p style="color: red; font-size: 2rem;" >WELCOME MANUFACTURER</p>
+          <li ><a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">DATABASE PROGRAM</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li><a href="#">BSTBearings</a></li>
+                <li>	<a href="#">BSTTruckparts</a>	</li>
+              </ul>
+         </li>
+            <li>	<a href="#">BST MARKETING</a>	</li>
+            <li>	<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">WHOLESALERS</a>
               <ul class="collapse list-unstyled" id="pageSubmenu">
-                <li>	<a href="#">Active</a>	</li>
-                <li>	<a href="#">Idle</a>	</li>
+                <li>	<a href="#">New Wholesalers</a>	</li>
+                <li>	<a href="#">Data Updates</a>	</li>
                 <li>	<a href="#">Non Active</a></li>
               </ul>	</li>
-              <li>	<a href="#">Timeline</a>	</li>
-              <li>	<a href="#">Live Chat</a>	</li>
-              <li>	<a href="#">Likes</a>	</li>
-              <li>	<a href="#">Comments</a>	</li></ul>
       </nav>
   
+
    <div class="content">
       <br>
       <br>
       <br>
-        <div class="content-wrapper">
-          <h2>Collapsible Sidebar Using Bootstrap 4</h2>
-          <p>Lorem . Aliquam sem et tortor consequat id. Sollicitudin tempor id eu nisl nunc mi.</p>
+        <div class="content-wrapper text-center">
+          <h2>Your current program is <span style="color: red;" >BST</span>Bearings</h2>
           <div class="line"></div> 
         </div>
       </div>
     </div>
+
 </section>
 
 <!-- Footer -->
@@ -218,4 +225,6 @@ right: 0;
 </footer>
 
 
-</body></html>
+</body>
+
+</html>
